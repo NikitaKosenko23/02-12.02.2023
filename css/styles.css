@@ -1,0 +1,104 @@
+/*  COLORS:
+logo color: #4D5AE5; + #2E2F42;
+
+header baxckgroun color: #FFFFFF;
+MAIN background-color:#E5E5E5;
+HERO AND FOOTER background-color:#2E2F42;
+OIUR TEAM bacground-color:#F4F4FD;
+
+h1-index(studio): color: #FFFFFF;
+
+MAIN color:#2E2F42;
+p color + adress: color:#434455;
+footer p color: #E7E9FC;
+*/
+
+/* FONTS and SIZES 
+
+
+
+*/
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #434455;
+}
+
+/* Logotype */
+.logo {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.web-logo {
+  color: #4d5ae5;
+}
+.studio-logo {
+  color: #f4f4fd;
+}
+
+/* Navigation */
+.site-nav a {
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.contacts a {
+  color: #434455;
+  text-decoration: none;
+}
+
+/* Hero Block + title h1*/
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+.order-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+/* Tittle for h2 */
+.section-title {
+  color: #2e2f42;
+}
+
+/* Advantages + title for h3 */
+.item-title {
+  color: #2e2f42;
+}
+/* our team */
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+/* Potfolio list + унаследование свойств у пэшэк в ссылках а*/
+.list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #2e2f42;
+  color: #e7e9fc;
+}
+/* Фильтры для портфолио (КНОПКИ)*/
+.filter {
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+.filter:hover,
+:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
