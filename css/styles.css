@@ -47,7 +47,7 @@ footer p color: #E7E9FC;
 body {
   background-color: var(--main-background-color);
   color: var(--main-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -63,7 +63,6 @@ body {
   width: 44px;
   height: 24px;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
@@ -95,7 +94,6 @@ body {
 .site-nav a {
   color: var(--title-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -109,7 +107,6 @@ body {
 .contacts a {
   color: var(--main-color);
   text-decoration: none;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -130,7 +127,6 @@ body {
 
 .hero-title {
   color: var(--hero-title-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
@@ -140,7 +136,6 @@ body {
 .order-button {
   background-color: var(--button-background-color);
   color: var(--order-button-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -158,7 +153,6 @@ body {
 /* Tittle for h2 */
 .section-title {
   color: var(--title-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -170,7 +164,6 @@ body {
 /* Advantages + title for h3 */
 .item-title {
   color: var(--title-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -198,8 +191,6 @@ body {
 /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
 .page-footer-text {
   color: var(--footer-text-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -211,6 +202,13 @@ body {
   background-color: var(--filter-background-color);
   color: var(--filter-color);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
 }
 .filter:hover {
   color: var(--filter-color-hover);
