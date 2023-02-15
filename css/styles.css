@@ -85,6 +85,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.site-nav a:hover {
+  color: var(--active-color);
+}
+.site-nav a:focus {
+  color: var(--active-color);
+}
+
 .site-nav a:active {
   color: var(--active-color);
   /* text-decoration: underline; */
