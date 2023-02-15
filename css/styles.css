@@ -29,7 +29,7 @@ footer p color: #E7E9FC;
   --button-background-color: #4d5ae5;
   --ourteam-background-color: #f4f4fd;
   --studio-logo-color: #e7e9fc;
-  --web-logo-color: #4d5ae5;
+  --header-logo-color: #4d5ae5;
   --order-button-hover: #404bbf;
   --filter-background-color: #f4f4fd;
   --filter-color: #4d5ae5;
@@ -56,7 +56,7 @@ body {
 /* Logotype */
 
 .logo {
-  color: var(--title-color);
+  color: var(--header-logo-color);
   text-decoration: none;
   width: 44px;
   height: 24px;
@@ -69,17 +69,11 @@ body {
   text-transform: uppercase;
 }
 
-.logo > .web-logo {
-  color: var(--web-logo-color);
-}
-.logo:hover {
-  color: var(--title-color);
-}
-.logo:focus {
+.logo > .header-logo {
   color: var(--title-color);
 }
 
-.studio-logo-footer {
+.footer-logo {
   color: var(--studio-logo-color);
 }
 /* Navigation */
